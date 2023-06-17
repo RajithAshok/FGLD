@@ -34,10 +34,9 @@ while True:
             led.off()
             buzzer.on()
             time.sleep(0.5)
+            
     else:
         # Components are turned off when there is no gas leak
         led.off()
         buzzer.off()
-        motor.off() 
-
-
+        motor.off()
